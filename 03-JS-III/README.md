@@ -275,6 +275,7 @@ var palabras = ["Hola,", "mi", "nombre", "es", "Martin"];
 var suma = numeros.reduce(function (acc, elemento) {
   return acc + elemento;
 });
+return array.reduce((a, b) => a + b, 0);
 
 // Podemos escribir una función fuera de los parents de .reduce (para usar varias veces más tarde)
 function multiplicarDosNumeros(a, b) {
